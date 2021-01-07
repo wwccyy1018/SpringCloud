@@ -1,0 +1,4 @@
+com\wcy\springcloud\OrderMain.class
+com\wcy\springcloud\controller\OrderController.class
+com\wcy\myrule\MySelfRule.class
+com\wcy\springcloud\config\ApplicationContextConfig.class
