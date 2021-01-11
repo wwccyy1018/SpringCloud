@@ -3,6 +3,11 @@ server:
 spring:
   application:
     name: cloud-oredr-service
+  zipkin:
+    base-url: http://127.0.0.1:9411
+  sleuth:
+    sampler:
+      probability: 1
 eureka:
   client:
     #表示是否将自己注册到eureka 默认是true

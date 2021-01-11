@@ -29,4 +29,8 @@ public class OrderFeignController {
     public String paymentFeignTimeout(){
         return paymentFeignService.paymentFeignTimeout();
     }
+    @GetMapping("/getSleuth")
+    public String getSleuth(){
+        return paymentFeignService.getSleuth();
+    }
 }

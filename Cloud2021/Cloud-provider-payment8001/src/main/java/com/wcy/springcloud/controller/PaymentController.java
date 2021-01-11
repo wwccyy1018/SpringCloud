@@ -53,4 +53,8 @@ public class PaymentController {
         }
         return serverPort;
     }
+    @GetMapping("/getSleuth")
+    public String getSleuth(){
+        return "Sleuth链路追踪";
+    }
 }
